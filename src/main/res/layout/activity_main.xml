@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.showinputcharacterlengthedittext.MainActivity">
+    <com.example.showinputcharacterlengthedittext.DeplayInputCharacterLenghtEditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="left"
+        android:hint="请在此输入"
+        android:lineSpacingExtra="5dp"
+        android:maxLength="200"
+        android:minHeight="50dp"
+        android:minLines="5"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:textColor="#1d2024"
+        android:textColorHint="#b1b1b1"
+        android:textSize="15sp"
+        app:numTextColor="#b1b1b1"
+        app:numTextGravity="right"
+        app:numTextSize="12dp"
+        />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DeplayInputCharacterLenghtEditText">
+        <attr name="numTextGravity" format="enum">
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <attr name="numTextSize" format="dimension" />
+        <attr name="numTextColor" format="color" />
+    </declare-styleable>
+</resources>
