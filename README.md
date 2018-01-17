@@ -1,0 +1,4 @@
+# DesplayInputCharacterLengthEdittextModule
+同步显示输入框中输入字符长度及限制的最大长度的EditText Module
+
+这是一个Module，可以直接作为一个Module在项目中测试，也可以直接在布局文件中应用其中的DeplayInputCharacterLenghtEditText.java文件。
